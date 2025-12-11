@@ -9,8 +9,8 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
-			let arrset= new set(arr)
-			if(arr.length<=1 or arrset.size()===1 )
+			let arrset= new Set(arr)
+			if(arr.length<=1 or arrset.size===1 )
 			return -Infinity
 			arr.sort((a,b)=> b-a);
            return(arr[1])
